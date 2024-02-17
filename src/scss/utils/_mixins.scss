@@ -1,7 +1,7 @@
 @use 'sass:map';
 @use 'sass:list';
 
-@use 'vatiables' as var;
+@use 'variables' as var;
 @use 'functions' as fn;
 
 @mixin mq($bp: sm, $type: min, $is-retina: false) {
