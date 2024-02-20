@@ -147,6 +147,13 @@ meter {
   letter-spacing: 0.02em;
 }
 
+.page-title-accent {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.025em;
+}
+
 body {
   font-size: 16px;
   font-weight: 400;
@@ -326,6 +333,17 @@ summary {
 
 .welcome {
   grid-area: welcome;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  row-gap: 16px;
+}
+
+.page-title-accent {
+  display: block;
+  margin-bottom: 8px;
+  color: #fafafb;
 }
 
 .co-workers {
@@ -519,6 +537,9 @@ summary {
   }
   .sidebar {
     grid-area: sidebar;
+  }
+  .page-title-accent {
+    margin-bottom: 16px;
   }
   .logo {
     padding: 16px 20px;
